@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag vishal7500/netflix_clone:v2
+      run: docker build --build-arg TMDB_V3_API_KEY=5b008dd17c761f1a71c7836ddee00c71 --tag vishal7500/netflix_clone:v2 .
     - name: Login to Docker Hub
       uses: docker/login-action@v3
       with:
