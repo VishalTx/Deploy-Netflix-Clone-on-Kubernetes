@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_VishalTx_Deploy_Netflix_Clone_on_Kubernetes_1758196580502-push-trigger-input-set
+  identifier: Build_VishalTx_Deploy_Netflix_Clone_on_Kubernetes_1758196580502pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ApplicationsKubernetes
+  pipeline:
+    identifier: Build_VishalTx_Deploy_Netflix_Clone_on_Kubernetes_1758196580502
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
