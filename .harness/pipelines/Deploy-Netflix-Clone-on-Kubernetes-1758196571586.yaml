@@ -18,7 +18,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: account.harnessImage
-                    repo: vishal7500/Netflix_clone
+                    repo: vishal7500/netflix_clone
                     tags:
                       - v3
           platform:
